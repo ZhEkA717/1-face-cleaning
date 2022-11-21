@@ -13,8 +13,10 @@
     box-shadow: 0 0 10px red inset !important;
 }
 body{
+    box-sizing: border-box;
     margin: 0px auto;
-    max-width: 1400px;
+    /* max-width: 1400px; */
+    width: 100%;
     border: 1px solid lightgrey ;
 }
 body.active{
@@ -29,7 +31,7 @@ body.active{
     background-color: white;
     border-bottom: 2px solid #ba7f32;
     transition: top .3s linear;
-    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
 }
 #header.active{

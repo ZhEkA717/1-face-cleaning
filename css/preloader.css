@@ -10,7 +10,7 @@
     flex-direction: column;
     background-color: wheat;
     z-index: 999;
-    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
 }
 #preloader.active{
