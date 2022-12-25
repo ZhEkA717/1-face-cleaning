@@ -1,3 +1,7 @@
+document.querySelector('.close-window').addEventListener('click',(e)=>{
+    window.close();
+})
+
 $(document).ready(function(){
     $('.open_menu_mobile,.exit').click(function(event){
         $('.open_menu_mobile,.menu_mobile').toggleClass('active');

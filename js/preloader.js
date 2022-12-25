@@ -5,4 +5,7 @@ document.body.onload = function(){
             preloader.classList.add('active');
         }
     },500);
+
+    const closeWindow = document.querySelector('.close-window');
 }
+
